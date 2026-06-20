@@ -6,7 +6,7 @@ This project analyzes loan default patterns across 148,670 loan records using Ex
 
 The dataset came with several data quality issues that needed to be resolved before any analysis could happen. A few of those issues turned out to be significant findings in themselves, particularly around which fields could and could not be reliably used for default-risk analysis.
 
-\
+
 
 ## Dataset
 
@@ -16,7 +16,7 @@ The dataset came with several data quality issues that needed to be resolved bef
 * **Overall Default Rate:** 24.64% (36,639 defaults)
 * **Source:** https://www.kaggle.com/datasets/yasserh/loan-default-dataset
 
-\
+
 
 ## Tools Used
 
@@ -26,13 +26,13 @@ The dataset came with several data quality issues that needed to be resolved bef
 * Power BI Desktop
 * DAX (for calculated measures in Power BI)
 
-\
+
 
 ## Data Cleaning and Preprocessing
 
 All cleaning was done in Power Query before any analysis. This included handling missing values, decoding abbreviated categorical values into readable labels, and creating DTI and LTV bucket columns to enable band-level analysis.
 
-\
+
 
 ## Data Anomalies
 
@@ -62,7 +62,7 @@ A large number of DTI values were recorded as null in the raw data. After correc
 
 The <60% LTV group showed the highest default rate at 41.18%, which is counterintuitive since lower LTV is supposed to indicate lower risk. Drilling down by loan type offered a possible explanation: commercial loans are disproportionately concentrated in this band and carry a 78.16% default rate within it. Once segmented by loan type, the LTV pattern aligns more conventionally.
 
-\
+
 
 ## Key Insights
 
@@ -92,7 +92,7 @@ North-East (30.45%) and Central (27.54%) showed higher default rates than North 
 **Smaller loans defaulted more**
 Loans under 100k had a 37.10% default rate vs 21.90% for loans above 400k. This likely reflects the borrower segment at each loan size rather than loan amount being a direct risk driver.
 
-\
+
 
 ## Power BI Dashboard
 
@@ -104,14 +104,14 @@ High-level KPI cards alongside default rate breakdowns by borrower demographics 
 **Page 2: Risk Factors**
 Focused on loan structure and financial characteristics, covering DTI, LTV, repayment structure, lump sum payment, and loan convention.
 
-\
+
 
 ## Project Files
 
 * Project files (Excel analysis + Power BI dashboard): (https://drive.google.com/drive/folders/1pSgUsm6dQmPPXKUVLVoLmCfeUroKboHV?usp=drive\_link)
 * Interest rate anomaly screenshot (Power Query Group By output)
 
-\
+
 
 ## Author
 
