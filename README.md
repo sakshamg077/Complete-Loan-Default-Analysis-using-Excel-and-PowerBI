@@ -108,7 +108,7 @@ Focused on loan structure and financial characteristics, covering DTI, LTV, repa
 
 ## Project Files
 
-* Project files (Excel analysis + Power BI dashboard): \[Google Drive](https://drive.google.com/drive/folders/1pSgUsm6dQmPPXKUVLVoLmCfeUroKboHV?usp=drive\_link)
+* Project files (Excel analysis + Power BI dashboard): (https://drive.google.com/drive/folders/1pSgUsm6dQmPPXKUVLVoLmCfeUroKboHV?usp=drive\_link)
 * Interest rate anomaly screenshot (Power Query Group By output)
 
 \---
